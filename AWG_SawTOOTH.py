@@ -14,10 +14,3 @@ def sawtooth_wave(t, f_1, N):      #Sägezahn
     return signal
 
 signal = sawtooth_wave(t, f_1, N)   #Berechnung der Welle
-
-plt.plot(t, signal)
-plt.title("Sägezahnwelle")
-plt.xlabel("Zeit (s)")
-plt.ylabel("Amplitude")
-plt.grid()
-plt.show()
